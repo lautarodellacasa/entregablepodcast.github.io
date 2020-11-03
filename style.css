@@ -142,6 +142,7 @@ letter-spacing: 1;
    opacity: 100%;
    margin-left:2.2em;
    align-content: center;
+   margin-top: 2em;
    
 }
 .boton1:hover{
@@ -160,7 +161,7 @@ line-height: 24px;
 .contenedorepisodios{
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     width: 100%;
-    height: 80em;
+    height: 60em;
     transform: skewY(-4deg);
     transform-origin: top left;
     margin-top: 1.3em;
@@ -180,6 +181,7 @@ bottom: 64px;
 margin-top: 0.8em;
 transform: skew(0deg, 4deg);
 margin-left:1em;
+
 }
 
 
@@ -199,8 +201,15 @@ margin-left:1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 1em;
+    margin-top: 2em;
+    height:18em;
+    
 }
+.iframespotify{
+    border:none;
+}
+
+
   /*BLOQUE CELULAR*/                                                      /*BLOQUE CELULAR*/
 
 .contenedormedia{
@@ -252,7 +261,7 @@ margin-top: -8em;
     margin-top: 1em;
     }
 
-/*NOVEDADES*/                                                       /*NOVEDADES*/
+/*BLOQUE INVITADOS*/                                                       /*BLOQUE INVITADOS*/
 
 .contenedorinvitados{
     margin-top: 10em;
@@ -284,8 +293,8 @@ margin-top: 1em;
     justify-content: center;
 }
 
-
-.botones{
+/*BLOQUE BOTONES*/                                                              /*BLOQUE BOTONES*/
+.botones{   
 font-family: 'IBM Plex Sans';
 font-size: 20px;
 color: #060A24;
@@ -309,6 +318,8 @@ padding: 1em 1em;
    align-content: center;
    display:block;
 }
+/*BLOQUENOVEDADES*/                                                     /*BLOQUENOVEDADES*/
+
 .contenedornovedades{
     width: 100%;
     height: 20em;
@@ -334,7 +345,7 @@ margin-top:1em;
 /*FOOTER*/                                                            /*FOOTER*/
 
 .footercontainer{
-width: 100%;
+width: 100vw;
 font-family: 'IBM Plex Mono';
 font-size: 14px;
 color: #060A24;
@@ -343,7 +354,7 @@ line-height: 22px;
 text-align: center;
 margin-top:1em;
 font-weight: 300;
-padding: 1.5em;
+margin-left: -20em;
 }
 .botonfooter{
     margin-top: 4em;
@@ -363,14 +374,19 @@ padding: 1.5em;
 
 
 .bluepale{
+    width: 100vw;
     margin-left: -2em;
 }
 .socialmedia{
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     margin-top: 1em;
     margin-left: -3em;
     border-radius: 2px;
+}
+.socialmedia:hover{
+    transform: scale(1.1);    
 }
 
 
