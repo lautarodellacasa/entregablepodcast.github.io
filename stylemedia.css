@@ -1,12 +1,11 @@
 /*MEDIAQUERY*/
 @media screen and (min-width:1440px){
-    .contenedorgeneral{
-        width: 100%;
-    background-color: white;
-    display: inline-block;
-    box-sizing:border-box;
-    }
-   /*NAV*/ 
+  
+
+   /*NAV*/                                                          /*NAV*/ 
+   .logo{
+       margin-left: 2em;
+   }
     .open{
         display: none;
     }
@@ -40,7 +39,7 @@
      .puntozul{
         color: blue;
     }
-    /*HEADER*/
+    /*PRIMER BLOQUE*/                                                                    /*PRIMER BLOQUE*/
 
         .titulo1{
             padding: 0 1rem;
@@ -56,6 +55,8 @@
         padding: 0 1rem;
         margin-left: 4rem;
       }
+      /*BLOQUE EPISODIOS*/                                                            /*BLOQUE EPISODIOS*/
+
       .contenedorepisodios{
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         width: 100%;
@@ -81,32 +82,35 @@
 
       
     
-      /*CONTENEDORCELULAR*/
+        /*CONTENEDORCELULAR*/                                                   /*CONTENEDORCELULAR*/
       .contenedormedia{
         display: flex;
         flex-direction: row;
         align-content: center;
-    
+       
         }
 
       .celular img{
         width: 20em;
         height: 35em;
-        margin-left: 30em;
+        margin-left: 10em;
         margin-top: -5em;
         margin-bottom: 300px;
         transform: skew(0deg, 0deg);
-        }
+    }
+    .contenedormedia{
+        margin-left: 10em;
+    }
         .dondevenimos{
-
-            margin-left:8em ;
+            margin-left:40em ;
         }
-        .bloquecelular{
-            margin-left: -4em;
+        /*.bloquecelular{
+            margin-left: -50em;
             margin-top: 20em;
-        }
+            border: 1em solid black;
+        }*/
         .parrafos{
-            margin-left: 14em;
+            margin-left: 20em;
             width: 28em;
             margin-top: 2em;
 
@@ -116,13 +120,11 @@
 
         }
         .parrafomargen{
-            margin-top: 1em;
+            margin-top: 40em;
         }
 
-        .contenedorinvitados{
+        /*BLOQUE INVITADOS*/                                                    /*BLOQUE INVITADOS*/
 
-            margin-top: 18em;
-        }
         .invitados{
             margin-left: 5em;
         }
@@ -132,7 +134,7 @@
 
         }
         
-        /*BLOQUE BOTONES*/
+        /*BLOQUE BOTONES*/                                                        /*BLOQUE BOTONES*/
         .botones{
             display: flex;
             justify-content: space-around;
@@ -141,7 +143,7 @@
         }
 
 
-          /*BLOQUE NOVEDADES*/
+        /*BLOQUE NOVEDADES*/                                                            /*BLOQUE NOVEDADES*/
          .novedades{
              margin-top: 3em;
          }
@@ -168,7 +170,7 @@
             box-sizing: border-box;
         }
 
-         /*FOOTER*/
+         /*FOOTER*/                                                                         /*FOOTER*/
          .footercontainer{
             display: flex;
             flex-direction: row ;

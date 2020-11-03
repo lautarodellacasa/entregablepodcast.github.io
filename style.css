@@ -93,7 +93,7 @@ input:checked ~ .open{
   
 
 
-/*PRIMER BLOQUE*/
+/*PRIMER BLOQUE*/                                                 /*PRIMER BLOQUE*/ 
 
 .titulo1{
     padding:0 1em;
@@ -148,13 +148,14 @@ letter-spacing: 1;
  font-family: 'IBM Plex Mono';
 font-size: 18px;
 color: #FFFFFF;
+border: #00F3BB;
 letter-spacing: 0;
 text-align: center;
 line-height: 24px;
  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
 
-/*BLOQUE EPISODIOS*/
+/*BLOQUE EPISODIOS*/                                               /*BLOQUE EPISODIOS*/
 
 .contenedorepisodios{
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
@@ -165,7 +166,6 @@ line-height: 24px;
     margin-top: 1.3em;
    
 }
-
 
 .episodios{
 
@@ -201,20 +201,27 @@ margin-left:1em;
     justify-content: space-around;
     margin-top: 1em;
 }
+  /*BLOQUE CELULAR*/                                                      /*BLOQUE CELULAR*/
 
-/*BLOQUE CELULAR*/
 .contenedormedia{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: -50em;
+    /*display: flex;
+    flex-direction: column;*/
+    margin-bottom: -10em;
 }
    
 .celular img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-120px);
     width: 20em;
+    margin-left: em;
     height: 35em;
-    margin-top: -5em;
+    z-index: 99;
     margin-bottom: 300px;
-    transform: skew(0deg, 0deg);
+
+   
     }   
 
 .dondevenimos{
@@ -245,9 +252,10 @@ margin-top: -8em;
     margin-top: 1em;
     }
 
-/*NOVEDADES*/
+/*NOVEDADES*/                                                       /*NOVEDADES*/
+
 .contenedorinvitados{
-    margin-top: 30em;
+    margin-top: 10em;
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -283,7 +291,9 @@ font-size: 20px;
 color: #060A24;
 letter-spacing: 0;
 text-align: center;
+padding: 1em 1em;
 }
+
 .botonfooter{
     background: #00F3BB;
     width: 260px;
@@ -321,7 +331,7 @@ line-height: 42px;
 margin-top:1em;
 }
 
-/*FOOTER*/
+/*FOOTER*/                                                            /*FOOTER*/
 
 .footercontainer{
 width: 100%;
@@ -334,13 +344,6 @@ text-align: center;
 margin-top:1em;
 font-weight: 300;
 padding: 1.5em;
-}
-.socialmedia{
-    display: flex;
-    justify-content: space-around;
-    padding: 1em;
-    margin-top: 1em;
-    border-radius: 2px;
 }
 .botonfooter{
     margin-top: 4em;
@@ -357,5 +360,18 @@ padding: 1.5em;
    line-height: 24px;
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
    }
+
+
+.bluepale{
+    margin-left: -2em;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-left: -3em;
+    border-radius: 2px;
+}
+
 
 

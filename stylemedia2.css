@@ -3,7 +3,7 @@
 
 
 
-    /*NAV*/ 
+    /*NAV*/                                                           /*NAV*/ 
     .open{
         display: none;
     }
@@ -35,7 +35,7 @@
      }  
 
 
-/*CONTENEDORCELULAR*/
+/*CONTENEDORCELULAR*/                                                 /*CONTENEDORCELULAR*/
 
 .contenedormedia{
     display: flex;
@@ -47,7 +47,6 @@
   .celular img{
     width: 20em;
     height: 35em;
-
     margin-left: 10em;
     margin-top: -5em;
     margin-bottom: 300px;
@@ -76,18 +75,19 @@
 
     .contenedorinvitados{
 
-        margin-top: 18em;
+        margin-top: -5em;
     }
     .invitados{
-        margin-left: 5em;
+        margin-left: 10em;
     }
     .imagenesinvitados{
+        margin-top: 1em;
         width: 33vw;
         display: flex;
 
     }
 
-    /*FOOTER*/
+    /*FOOTER*/                                                       /*FOOTER*/
 
     .botonfooter{
         margin-top: 4em;
